@@ -34,3 +34,7 @@ print("The index is : ",common)
 print("use case in printing from that index: ",str[common:])
 #return -1 if it cant find that string
 
+# Replace function to Replace one peice of string with another string
+str = str.replace("a","s")
+#replace all a by s
+print(f"New modified string: *{str}*")
