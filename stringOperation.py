@@ -16,3 +16,9 @@ print(f"the char on given index is : {str[n]}")
 
 #lenght of string
 print(f"The lenght of the string is : {len(str)}")
+
+#string slicing
+print("\nSLICING OF STRING:")
+print(str[1:3])
+print(str[6:])
+print(str[:6])
