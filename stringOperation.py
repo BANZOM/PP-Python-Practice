@@ -5,8 +5,10 @@ String operation in python
 '''
 str= input("Enter any word or sentence: ")
 
+print("\n***OPERATIONS ON STRING***")
+
 #printing of string
-print(str)
+print(f"Your input string is: {str}")
 
 #printing a particular index of string
 n=int(input("Which index to print: "))
