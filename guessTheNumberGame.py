@@ -2,33 +2,21 @@
 
 Guessing the number game; 27 june 2022
 
+Goto statements are not worth it. it create a spaghetti code.
+
 '''
 import random
-import goto
 
+randomnum = random.randint(1,100)
 
-label .playagian
-randomnum = random.randint(7,14)
-#print(randomnum)
-# print("Enter a number: ");
+while True:
+    num= int(input("Enter guessed number: "))
+    if randomnum>num:
+        print ("You guessed the Wrong Number, Think any greater Number.")
+    elif randomnum<num:
+        print ("You guessed the Wrong Number, Think any smaller Number.")
+    else:
+        print(f"You got the write Number. i.e: {num} ")
+        break
 
-label .agian
-num=int( input ("Enter A Number: "))
-
-
-if randomnum>num:
-    print ("You guessed the Wrong Number, Think any greater Number.")
-    goto .agian
-elif randomnum<num:
-    print ("You guessed the Wrong Number, Think any smaller Number.")
-    goto .agian
-else:
-    print(f"You got the write Number. i.e: {num} ")
-    
-rewine = int(input("Want to play agian,Enter 9: "));
-if rewine == 9:
-    goto .playagian
-    
-    # need to complete and to learn goto statement in python
-
-
+print("THANK YOU, EXECUTE THE CODE AGAIN TO PLAY ONCE MORE")
