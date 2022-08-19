@@ -22,3 +22,8 @@ print("\nSLICING OF STRING:")
 print(str[1:3])
 print(str[6:])
 print(str[:6])
+
+#count of STRING to check if one string is present in another string
+str2= input("Enter any word or sentence for second string: ")
+common = str.count(str2)
+print(common)
