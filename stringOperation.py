@@ -27,3 +27,8 @@ print(str[:6])
 str2= input("Enter any word or sentence for second string: ")
 common = str.count(str2)
 print(common)
+
+#find function to check if given string have that another string and return the index of first charactor
+common= str.find(str2)
+print("The index is : ",common)
+print("use case in printing from that index: ",str[common:])
