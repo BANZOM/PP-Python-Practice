@@ -38,3 +38,7 @@ print("use case in printing from that index: ",str[common:])
 str = str.replace("a","s")
 #replace all a by s
 print(f"New modified string: *{str}*")
+
+
+#upper and lower
+print(f"Lower string: {str.lower()}\nUpper string: {str.upper()}")
