@@ -32,3 +32,5 @@ print(common)
 common= str.find(str2)
 print("The index is : ",common)
 print("use case in printing from that index: ",str[common:])
+#return -1 if it cant find that string
+
