@@ -65,3 +65,13 @@ print(l)
 #printing of list with for loop:
 for i in range (len(l)):
     print(l[i])
+
+#input to list with user
+num= int( input( "enter the number of inputs: "))
+newL= []
+for i in range(0,num):
+    iP= int( input( ))
+    newL.append(iP)
+    
+print(newL)
+ 
