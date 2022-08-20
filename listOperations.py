@@ -24,3 +24,10 @@ print(l)
 l.append(x)
 print(l)
 print(l[6:8])
+
+#inserting elements at a particular index and shift rest
+x = l[0:2]
+l.insert(0,0) # (index,element)
+print(l)
+l.insert(1,x)
+print(l)
