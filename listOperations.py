@@ -31,3 +31,9 @@ l.insert(0,0) # (index,element)
 print(l)
 l.insert(1,x)
 print(l)
+
+
+#sorting of lists
+l= [55,6,444454,54,655,879,6654,86455,55,48687,686,4487,6548,65587,57,946525,46,85,40,5.55,464,5]
+l.sort()
+print(l)
