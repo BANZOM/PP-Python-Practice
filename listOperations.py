@@ -69,7 +69,7 @@ for i in range (len(l)):
 #input to list with user
 num= int( input( "enter the number of inputs: "))
 newL= []
-for i in range(0,num):
+for i in range(num):
     iP= int( input( ))
     newL.append(iP)
     
