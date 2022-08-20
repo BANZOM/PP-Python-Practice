@@ -37,3 +37,11 @@ print(l)
 l= [55,6,444454,54,655,879,6654,86455,55,48687,686,4487,6548,65587,57,946525,46,85,40,5.55,464,5]
 l.sort()
 print(l)
+
+
+#pop of list: deleting element from list
+l.pop(1)            # .pop(index_to_pop)
+print(l)
+removed = l.pop(2)  #storing of Removed element
+print(l)
+print("Removed element is: ",removed)
