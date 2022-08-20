@@ -56,3 +56,9 @@ print("the lenght of list is: ",len(l))
 
 #sum of elements in list:
 print("the sum of elements is: ",sum(l))
+
+
+
+#multiply of list:
+l = l * 9
+print(l)
