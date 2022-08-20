@@ -16,3 +16,11 @@ print(x)
 print(l[0:2])
 print(l[0:4])
 print(l[4:6])
+
+#adding elements in list
+l.append(7)
+l.append([7,8])
+print(l)
+l.append(x)
+print(l)
+print(l[6:8])
