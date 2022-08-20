@@ -53,3 +53,6 @@ print(f"55 is counted by {count} times.")
 
 #lenght of list
 print("the lenght of list is: ",len(l))
+
+#sum of elements in list:
+print("the sum of elements is: ",sum(l))
