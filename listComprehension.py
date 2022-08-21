@@ -11,9 +11,8 @@ for i in range(x+1):
     for j in range(y+1):
         for k in range(z+1):
             lst.append([i,j,k])
-  
 reqLst = []
-# print(lst)
+#required permutations 
 for [x,y,z] in lst:
     if x+y+z != n :
         reqLst.append([x,y,z])
