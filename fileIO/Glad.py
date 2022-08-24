@@ -17,3 +17,12 @@ Sincerely,
 
 Aditya
 '''
+
+
+F.write(bytearray (f"Dear {name},\n", "UTF-8"))
+F = open("sample.txt" , "ab")
+
+
+F.write(bytearray(f"{glad}", "UTF-8"))
+F.close()
+print("We have something for you in the file named as %s"%(F.name))
