@@ -24,4 +24,7 @@ SyntaxError: invalid syntax
 # Valid line
 print("Here I'm developing this \"code block\"")
 
+# Printing multiple values in print
+print("hello",5,8,6,"world")
+
 
