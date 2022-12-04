@@ -27,4 +27,14 @@ print("Here I'm developing this \"code block\"")
 # Printing multiple values in print
 print("hello",5,8,6,"world")
 
+# Using seperator
+print("hello",5,8,6,"world", sep='')
+print("hello",5,8,6,"world", sep='*')
+print("hello",5,8,6,"world", sep='-')
+# hello586world
+# hello*5*8*6*world
+# hello-5-8-6-world
+
+
+
 
