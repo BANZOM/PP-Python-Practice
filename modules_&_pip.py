@@ -7,7 +7,15 @@ A module can also include runnable code. Grouping related code into a module mak
 2. External modules: to be imported
 
 Syntax of Python Import:
-import module
+$import module
 
+Import all Names 
+The * symbol used with the from import statement is used to import all the names from a module to a current namespace.
 
+Syntax:
+$from module_name import *
+
+Renaming the Python module:
+We can rename the module while importing it using the keyword.
+Syntax:  $Import Module_name as Alias_name
 '''
