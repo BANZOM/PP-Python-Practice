@@ -36,5 +36,7 @@ print("hello",5,8,6,"world", sep='-')
 # hello-5-8-6-world
 
 
-
-
+# using end
+print("hello",5,8,6,"world", sep='',end='+')
+print("hello",5,8,6,"world", sep='*',end='|')
+print("hello",5,8,6,"world", sep='-',end='=\n')
