@@ -11,3 +11,17 @@ This is a multi line comment.
     """
 '''
 
+"""
+\n is a escape sequence character 
+"""
+'''
+print("Here I'm developing this "code block"")
+
+print("Here I'm developing this "code block"")                                ^
+SyntaxError: invalid syntax
+'''
+
+# Valid line
+print("Here I'm developing this \"code block\"")
+
+
