@@ -40,3 +40,4 @@ print("hello",5,8,6,"world", sep='-')
 print("hello",5,8,6,"world", sep='',end='+')
 print("hello",5,8,6,"world", sep='*',end='|')
 print("hello",5,8,6,"world", sep='-',end='=\n')
+# hello586world+hello*5*8*6*world|hello-5-8-6-world=
