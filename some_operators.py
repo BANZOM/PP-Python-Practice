@@ -12,3 +12,12 @@ ans5 = n%m
 print("Modulus of",n,"and",m,"is", ans5)
 ans6 = n//m
 print("Floor Division of",n,"and",m,"is", ans6)
+
+'''
+Addition of 15 and 7 is 22
+Subtraction of 15 and 7 is 8
+Multiplication of 15 and 7 is 105
+Division of 15 and 7 is 2.142857142857143
+Modulus of 15 and 7 is 1
+Floor Division of 15 and 7 is 2
+'''
