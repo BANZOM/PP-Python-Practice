@@ -53,7 +53,10 @@ This can be done through triple quotes.
 This is one of the example.
 Visit the code block to get more info.
          
-Follow @BANZOM
-
-        '''
+Follow @BANZOM'''
 print(str)
+
+
+# printing the string using loops
+for ch in str:
+    print(ch, end='')
