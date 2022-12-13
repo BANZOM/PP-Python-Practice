@@ -4,7 +4,7 @@ String operation in python
 
 '''
 
-# rstrip
+# strip/rstrip/lstrip
 str = "BANZOM!!!!"
 print(str.strip('!'))
 
