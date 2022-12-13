@@ -3,6 +3,13 @@
 String operation in python
 
 '''
+
+# rstrip
+str = "BANZOM!!!!"
+print(str.strip('!'))
+
+
+
 str= input("Enter any word or sentence: ")
 
 print("\n***OPERATIONS ON STRING***")
@@ -63,5 +70,5 @@ for ch in str:
 
 
 # slicing with negative string
-str = "Asitis"
+str = "asitis"
 print(str[-4:-2])   # it
