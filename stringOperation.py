@@ -3,6 +3,13 @@
 String operation in python
 
 '''
+
+# strip/rstrip/lstrip
+str = "BANZOM!!!!"
+print(str.strip('!'))
+
+
+
 str= input("Enter any word or sentence: ")
 
 print("\n***OPERATIONS ON STRING***")
@@ -42,3 +49,26 @@ print(f"New modified string: *{str}*")
 
 #upper and lower
 print(f"Lower string: {str.lower()}\nUpper string: {str.upper()}")
+
+
+'''
+Multi line String
+'''
+
+str = '''Hello, I am developing multi line string.
+This can be done through triple quotes.
+This is one of the example.
+Visit the code block to get more info.
+         
+Follow @BANZOM'''
+print(str)
+
+
+# printing the string using loops
+for ch in str:
+    print(ch, end='')
+
+
+# slicing with negative string
+str = "asitis"
+print(str[-4:-2])   # it
