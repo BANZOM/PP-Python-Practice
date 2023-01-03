@@ -8,5 +8,14 @@ for i in range(0, n):
     ele = int(input())
     array.append(ele) 
 
-print(array)
 
+minSum = 0
+maxSum = array[0]
+for i in range (len(array)):
+    minSum= minSum + array[i]
+    if minSum > maxSum:
+        maxSum = minSum
+    if minSum < 0:
+        minSum = 0
+
+print("The Max Sum of subArray = ", maxSum)
