@@ -3,6 +3,7 @@ import time
 # print(time.localtime().tm_hour)
 curr_time = time.localtime().tm_hour
 # print(curr_time)
+# print(type(curr_time))
 if curr_time >= 4 and curr_time < 12:
     print("Good Morning")
 elif curr_time >=12 and curr_time < 4:
