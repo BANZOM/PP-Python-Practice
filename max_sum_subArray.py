@@ -19,3 +19,5 @@ for i in range (len(array)):
         minSum = 0
 
 print("The Max Sum of subArray = ", maxSum)
+
+# For Array [-2,1,-3,4,-1,2,1,-5,4], The subarray [4,-1,2,1] has the largest sum 6.
