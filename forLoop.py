@@ -28,3 +28,8 @@ for c in fruits:
     if c == "cherry":
         break
     print(c)
+    
+# for loops cannot be empty,
+# "IndentationError: expected an indented block after 'for' statement on line", the error
+for x in fruits:
+    pass
