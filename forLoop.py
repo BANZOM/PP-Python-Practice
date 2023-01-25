@@ -13,3 +13,7 @@ print("\nThe sum is :",sum)
 fruits = ['apple', 'berry', 'cherry']
 for item in fruits:
     print(item);
+    
+# looping through string
+for c in "ABCDEFGHIJKLMOPQRSTUVWXYZ":
+    print(f"{c} ",end="");
