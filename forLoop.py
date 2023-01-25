@@ -8,3 +8,8 @@ for i in range (1, num+1):
     print(i,end=" ")
     sum= sum + i
 print("\nThe sum is :",sum)
+
+
+fruits = ['apple', 'berry', 'cherry']
+for item in fruits:
+    print(item);
