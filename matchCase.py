@@ -10,3 +10,5 @@ match x:
         print("Hello")
     case other:
         print("Thank You!")
+        
+# This can be the alternate of if-elif-else statements
