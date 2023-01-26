@@ -26,21 +26,22 @@ def f5(**name):
     for key in name.keys():
         print(f"{i}. {name[key]}")
         i += 1
+    print()
 
+f1()
 
-# f1()
+# Information can be passed into functions as arguments.
+name = input("Enter your name: ")
+f2(name)
 
-# # Information can be passed into functions as arguments.
-# name = input("Enter your name: ")
-# f2(name)
-
-# fname = input("Enter your first name: ")
-# lname = input("Enter your last name: ")
-# f3(fname, lname)
+fname = input("Enter your first name: ")
+lname = input("Enter your last name: ")
+f3(fname, lname)
 
 # We can also send arguments with the key = value syntax. This way the order of the arguments does not matter.
-# f4(child1 = "A", child2 = "B", child3 = "C")
+f4(child1 = "A", child2 = "B", child3 = "C")
 
 
-
+# If we don't know how many keyword arguments that will be passed into your function, adding ** before the parameter name solves that problem
+# This way the function will receive a dictionary of arguments, and can be accessed.
 f5(one="Aditya", two="Adi", three="Addy", four="Aadi")
