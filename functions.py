@@ -28,6 +28,11 @@ def f5(**name):
         i += 1
     print()
 
+
+def f6(num=10):
+    print(num)
+
+
 f1()
 
 # Information can be passed into functions as arguments.
@@ -39,9 +44,14 @@ lname = input("Enter your last name: ")
 f3(fname, lname)
 
 # We can also send arguments with the key = value syntax. This way the order of the arguments does not matter.
-f4(child1 = "A", child2 = "B", child3 = "C")
+f4(child1="A", child2="B", child3="C")
 
 
 # If we don't know how many keyword arguments that will be passed into your function, adding ** before the parameter name solves that problem
 # This way the function will receive a dictionary of arguments, and can be accessed.
+# Arbitrary Kword Arguments
 f5(one="Aditya", two="Adi", three="Addy", four="Aadi")
+
+# Default Parameter Value is helpful when no argument is passes to a function
+f6()
+f6(100)
