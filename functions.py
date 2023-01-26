@@ -39,6 +39,10 @@ def f7(list):
     print()
 
 
+def multiplyByTen(num):
+    return num*10
+
+
 f1()
 
 # Information can be passed into functions as arguments.
@@ -66,3 +70,8 @@ print()
 # Passing any list to a function
 L = ['one', 'two', 'three', 'four', 'five']
 f7(L)
+
+# Updating the variable using function
+num = 10
+num = multiplyByTen(num)
+print(f"{num}\n")
