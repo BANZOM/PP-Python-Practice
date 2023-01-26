@@ -12,18 +12,22 @@ def f1():
 def f2(name):
     print(f"We recognise your name, thank you for tuning in {name}.\n")
 
-def f3(fname,lname):
+
+def f3(fname, lname):
     print("Your full name is "+fname+" "+lname+"\n")
-    
+
+
 def f4(child3, child2, child1):
-      print("The youngest child is " + child3+"\n")
+    print("The youngest child is " + child3+"\n")
+
 
 def f5(**name):
-    i=1
+    i = 1
     for key in name.keys():
-        print(key)
-    
-    
+        print(f"{i}. {name[key]}")
+        i += 1
+
+
 # f1()
 
 # # Information can be passed into functions as arguments.
@@ -36,6 +40,7 @@ def f5(**name):
 
 # We can also send arguments with the key = value syntax. This way the order of the arguments does not matter.
 # f4(child1 = "A", child2 = "B", child3 = "C")
+
 
 
 f5(one="Aditya", two="Adi", three="Addy", four="Aadi")
