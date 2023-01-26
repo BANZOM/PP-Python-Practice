@@ -33,6 +33,12 @@ def f6(num=10):
     print(num)
 
 
+def f7(list):
+    for item in list:
+        print(item)
+    print()
+
+
 f1()
 
 # Information can be passed into functions as arguments.
@@ -55,3 +61,8 @@ f5(one="Aditya", two="Adi", three="Addy", four="Aadi")
 # Default Parameter Value is helpful when no argument is passes to a function
 f6()
 f6(100)
+print()
+
+# Passing any list to a function
+L = ['one', 'two', 'three', 'four', 'five']
+f7(L)
