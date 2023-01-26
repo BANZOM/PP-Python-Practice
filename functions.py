@@ -39,8 +39,12 @@ def f7(list):
     print()
 
 
-def multiplyByTen(num):
+def f8_multiplyByTen(num):
     return num*10
+
+
+def f9():
+    pass
 
 
 f1()
@@ -73,5 +77,8 @@ f7(L)
 
 # Updating the variable using function
 num = 10
-num = multiplyByTen(num)
+num = f8_multiplyByTen(num)
 print(f"{num}\n")
+
+# Using 'pass' in functions
+f9()
