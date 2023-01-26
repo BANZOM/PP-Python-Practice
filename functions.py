@@ -14,6 +14,10 @@ def f2(name):
 
 def f3(fname,lname):
     print("Your full name is "+fname+" "+lname+"\n")
+    
+def f4(child3, child2, child1):
+      print("The youngest child is " + child3+"\n")
+
 
 f1()
 
@@ -24,4 +28,7 @@ f2(name)
 fname = input("Enter your first name: ")
 lname = input("Enter your last name: ")
 f3(fname, lname)
+
+# We can also send arguments with the key = value syntax. This way the order of the arguments does not matter.
+f4(child1 = "A", child2 = "B", child3 = "C")
 
