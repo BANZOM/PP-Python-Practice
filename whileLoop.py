@@ -24,3 +24,11 @@ while i < 6:
         continue
     print(i, end=" ")
 print()
+
+# else
+i = 0
+while i < 6:
+    print(i, end=", ")
+    i += 1
+else:
+    print("While loop finished!")
