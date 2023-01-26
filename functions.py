@@ -47,6 +47,15 @@ def f9():
     pass
 
 
+def f10_factorial(n):
+    if n < 0:
+        return -1
+    if n == 1 or n == 0:
+        return 1
+    else:
+        return n * f10_factorial(n-1)
+
+
 f1()
 
 # Information can be passed into functions as arguments.
@@ -82,3 +91,7 @@ print(f"{num}\n")
 
 # Using 'pass' in functions
 f9()
+
+# Recursion in function
+n = int(input("Enter the num to find its factorial: "))
+print(f"The Factorial of {n} is {f10_factorial(n)}\n")
