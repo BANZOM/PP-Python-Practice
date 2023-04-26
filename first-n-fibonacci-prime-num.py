@@ -1,21 +1,27 @@
-n = int(input("Enter a number: "))
+import math
+
 
 def isPrime(n):
-    for i in range(2, n//2):
+    if n <= 1:
+        return False
+    x = int(math.sqrt(n))+1
+    for i in range(2, x):
         if n % i == 0:
             return False
     return True
-        
 
-f1 = 1
+
+n = int(input("Enter a number: "))
+f1 = 0
 f2 = 1
-list = []
-while n-2 > 0:
+fibonacci_primes = []
+
+while n > 1:
+    if isPrime(f2):
+        fibonacci_primes.append(f2)
     f3 = f1 + f2
     f1 = f2
     f2 = f3
-    if isPrime(f3):
-        list.append(f3)
     n -= 1
 
-print(list)
+print(fibonacci_primes)
