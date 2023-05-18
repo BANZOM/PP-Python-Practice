@@ -16,7 +16,12 @@ def isPrimePartition(n):
     for i in range(2,n+1):
         if isPrime(i):
             P.append(i)
-    return P
+    
+    for i in P:
+        for j in P:
+            if i+j == n:
+                return True
+    return False
 
 num = int(input("Enter the number: "))
 print(isPrimePartition(num))
