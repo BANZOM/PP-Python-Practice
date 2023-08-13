@@ -1,0 +1,11 @@
+A = set((1,2,3,40))
+B = set((4,3,6,10))
+
+print(A.union(B))
+print(A.intersection(B))
+print(A.difference(B))
+print(A.symmetric_difference(B))
+print(A.issubset(B))
+print(A.issuperset(B))
+print(A.isdisjoint(B))
+print(A.symmetric_difference_update(B))
